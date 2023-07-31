@@ -1,5 +1,6 @@
 package com.rugry.cleanarchitecturenoteapp.feature.presentation.add_edit_note
 
+import android.util.Log
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
@@ -109,6 +110,7 @@ class AddEditNoteViewModel @Inject constructor(
                                  message = e.message ?: "Не понятная ошибка"
                              )
                          )
+                         Log.e("ERROR", e.message.toString())
                      }
                  }
              }

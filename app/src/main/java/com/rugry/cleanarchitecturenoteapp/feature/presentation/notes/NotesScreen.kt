@@ -110,7 +110,7 @@ fun NotesScreen(
                             .clickable {
                                 Log.d("click", "11111")
                                 navController.navigate(
-                                    Screen.NoteScreen.route +
+                                    Screen.AddEditNoteScreen.route +
                                             "?noteId=${note.id}&noteColor=${note.color}"
                                 )
                             },
