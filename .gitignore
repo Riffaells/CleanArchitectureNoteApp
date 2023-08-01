@@ -9,3 +9,5 @@
 .cxx
 local.properties
 /.idea/.gitignore
+/app/src/androidTest/java/com/rugry/cleanarchitecturenoteapp/
+/app/src/test/java/com/rugry/cleanarchitecturenoteapp/
