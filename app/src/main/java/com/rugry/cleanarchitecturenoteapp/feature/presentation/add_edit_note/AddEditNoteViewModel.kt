@@ -89,7 +89,7 @@ class AddEditNoteViewModel @Inject constructor(
                  )
              }
              is AddEditNoteEvent.ChangeColor -> {
-                 _noteColor.value = event.color
+                 _noteColor.intValue = event.color
              }
              is AddEditNoteEvent.SaveNote -> {
                  viewModelScope.launch {
