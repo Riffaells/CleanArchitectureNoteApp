@@ -58,7 +58,7 @@ fun OrderSection(
                 text = "Descending",
                 selected = noteOrder.orderType is OrderType.Descending,
                 onSelect = {
-                    onOrderChange(noteOrder.copy(OrderType.Ascending))
+                    onOrderChange(noteOrder.copy(OrderType.Descending))
                 }
             )
         }
